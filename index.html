@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Datenschutzerklärung – GlucoFly</title>
+
+    <style>
+        :root {
+            color-scheme: light dark;
+            --background: #f5f5f7;
+            --card: rgba(255, 255, 255, 0.92);
+            --text: #1d1d1f;
+            --secondary: #6e6e73;
+            --border: rgba(0, 0, 0, 0.08);
+            --accent: #0071e3;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --background: #000000;
+                --card: #1c1c1e;
+                --text: #f5f5f7;
+                --secondary: #a1a1a6;
+                --border: rgba(255, 255, 255, 0.12);
+                --accent: #2997ff;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--background);
+            color: var(--text);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+                         Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            width: min(860px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 56px 0 80px;
+        }
+
+        header {
+            margin-bottom: 32px;
+        }
+
+        .eyebrow {
+            color: var(--secondary);
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        h1 {
+            font-size: clamp(34px, 7vw, 52px);
+            line-height: 1.08;
+            letter-spacing: -0.03em;
+            margin: 0 0 16px;
+        }
+
+        .intro {
+            max-width: 720px;
+            color: var(--secondary);
+            font-size: 19px;
+            margin: 0;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 28px;
+            margin: 18px 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            line-height: 1.25;
+            margin: 0 0 16px;
+            letter-spacing: -0.015em;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin: 24px 0 8px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin: 6px 0;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .notice {
+            border-left: 4px solid var(--accent);
+            padding-left: 18px;
+        }
+
+        .muted {
+            color: var(--secondary);
+        }
+
+        footer {
+            color: var(--secondary);
+            font-size: 14px;
+            text-align: center;
+            padding-top: 28px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                width: min(100% - 24px, 860px);
+                padding-top: 36px;
+            }
+
+            .card {
+                border-radius: 16px;
+                padding: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+    <header>
+        <div class="eyebrow">GlucoFly</div>
+        <h1>Datenschutzerklärung</h1>
+        <p class="intro">
+            Der Schutz Ihrer Daten ist uns wichtig. Diese Datenschutzerklärung
+            erläutert verständlich, welche Daten GlucoFly verarbeitet, warum dies
+            geschieht und welche Möglichkeiten Sie haben.
+        </p>
+    </header>
+
+    <div class="card notice">
+        <strong>Kurz zusammengefasst:</strong>
+        <p>
+            GlucoFly enthält keine Werbung und verwendet keine Analyse- oder
+            Tracking-Dienste. Dexcom-Zugangsdaten werden auf dem Gerät geschützt
+            gespeichert. Nur wenn Sie GlucoFly Live aktivieren, werden die dafür
+            notwendigen Daten zusätzlich über die GlucoFly-Server verarbeitet,
+            um Live-Aktualisierungen bereitstellen zu können.
+        </p>
+    </div>
+
+    <section class="card">
+        <h2>1. Verantwortlicher</h2>
+
+        <p>
+            Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:
+        </p>
+
+        <p>
+            <strong>[VOR- UND NACHNAME]</strong><br>
+            GlucoFly / [UNTERNEHMENSBEZEICHNUNG]<br>
+            [STRASSE UND HAUSNUMMER]<br>
+            [PLZ UND ORT]<br>
+            Deutschland
+        </p>
+
+        <p>
+            E-Mail:
+            <a href="mailto:info@glucofly.de">info@glucofly.de</a>
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>2. Welche Daten verarbeitet GlucoFly?</h2>
+
+        <p>
+            Je nach verwendeten Funktionen kann GlucoFly insbesondere folgende
+            Daten verarbeiten:
+        </p>
+
+        <ul>
+            <li>Dexcom-Benutzername und Dexcom-Passwort</li>
+            <li>ausgewählte Dexcom-Serverregion</li>
+            <li>Glukosewerte</li>
+            <li>Trendinformationen und Änderungswerte</li>
+            <li>Zeitpunkte der Glukosemessungen</li>
+            <li>von Ihnen gewählte Grenzwerte und Anzeigeeinstellungen</li>
+            <li>technische Kennungen für GlucoFly Live und Live Activities</li>
+            <li>Informationen über den Status eines GlucoFly-Live-Abonnements</li>
+            <li>freiwillig übermittelte Support- und Diagnosedaten</li>
+        </ul>
+
+        <p>
+            Glukosewerte sind Gesundheitsdaten und gehören damit zu den besonders
+            geschützten Kategorien personenbezogener Daten.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>3. Verbindung mit Dexcom</h2>
+
+        <p>
+            Wenn Sie Ihr Dexcom-Konto mit GlucoFly verbinden, verwendet die App
+            die von Ihnen eingegebenen Dexcom-Zugangsdaten, um über die
+            Dexcom-Share-Schnittstelle auf die von Ihnen freigegebenen
+            Glukosedaten zuzugreifen.
+        </p>
+
+        <p>
+            Dabei kommuniziert die App – abhängig von der ausgewählten Region –
+            direkt mit den von Dexcom bereitgestellten Servern.
+        </p>
+
+        <h3>Speicherung der Zugangsdaten</h3>
+
+        <p>
+            Dexcom-Benutzername, Passwort und ausgewählte Serverregion werden
+            geschützt im Apple Keychain des Geräts gespeichert. Das Passwort wird
+            nicht im normalen App-Speicher abgelegt.
+        </p>
+
+        <h3>Lokaler Glukoseverlauf</h3>
+
+        <p>
+            Damit Widgets, Diagramme und weitere Funktionen zuverlässig arbeiten,
+            speichert GlucoFly einen lokalen Zwischenspeicher der zuletzt
+            abgerufenen Glukosedaten. Der Glukoseverlauf umfasst technisch maximal
+            ungefähr sieben Tage und wird fortlaufend aktualisiert.
+        </p>
+
+        <p>
+            Bei der normalen Nutzung ohne GlucoFly Live werden diese Daten nicht
+            an einen eigenen GlucoFly-Server übertragen.
+        </p>
+
+        <p>
+            Für die Verarbeitung durch Dexcom gelten zusätzlich die
+            Datenschutzbestimmungen von Dexcom:
+            <a href="https://www.dexcom.com/de-DE/legal/privacy-policy"
+               target="_blank" rel="noopener noreferrer">
+                Dexcom Datenschutzerklärung
+            </a>.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>4. GlucoFly Live</h2>
+
+        <p>
+            GlucoFly Live ist eine optionale Funktion. Sie ermöglicht unter
+            anderem regelmäßige Aktualisierungen von Live Activities, auch wenn
+            die GlucoFly-App nicht aktiv im Vordergrund ausgeführt wird.
+        </p>
+
+        <p>
+            GlucoFly Live wird nur verwendet, wenn Sie die Funktion ausdrücklich
+            aktivieren.
+        </p>
+
+        <h3>Welche Daten werden dabei an GlucoFly übertragen?</h3>
+
+        <p>
+            Für die Bereitstellung von GlucoFly Live können insbesondere folgende
+            Daten an die GlucoFly-Server übertragen und dort verarbeitet werden:
+        </p>
+
+        <ul>
+            <li>eine zufällig erzeugte Installationskennung</li>
+            <li>ein zugehöriger technischer Sicherheitsschlüssel</li>
+            <li>Dexcom-Benutzername und Dexcom-Passwort</li>
+            <li>Dexcom-Serverregion</li>
+            <li>Glukosewerte, Trends und Messzeitpunkte</li>
+            <li>für die Darstellung notwendige Einstellungen und Grenzwerte</li>
+            <li>Live-Activity- und Push-Tokens</li>
+            <li>Status und gegebenenfalls Ablaufdatum der GlucoFly-Live-Berechtigung</li>
+        </ul>
+
+        <h3>Schutz der Dexcom-Zugangsdaten</h3>
+
+        <p>
+            Dexcom-Zugangsdaten werden auf dem Server verschlüsselt gespeichert.
+            Sie werden ausschließlich verwendet, um im Rahmen von GlucoFly Live
+            die zur Bereitstellung des Dienstes notwendigen Glukosedaten bei
+            Dexcom abzurufen.
+        </p>
+
+        <p>
+            Die Zugangsdaten werden nicht zu Werbe-, Analyse- oder
+            Profilbildungszwecken verwendet.
+        </p>
+
+        <h3>Zweck der Verarbeitung</h3>
+
+        <p>
+            Die Verarbeitung erfolgt ausschließlich, um die von Ihnen aktivierte
+            GlucoFly-Live-Funktion bereitzustellen, Glukosedaten regelmäßig
+            abzurufen und die von Ihnen gewünschten Live-Activity-Aktualisierungen
+            zu ermöglichen.
+        </p>
+
+        <h3>Rechtsgrundlage</h3>
+
+        <p>
+            Soweit die Verarbeitung zur Bereitstellung von GlucoFly Live
+            erforderlich ist, erfolgt sie auf Grundlage von Art. 6 Abs. 1 lit. b
+            DSGVO. Soweit Gesundheitsdaten verarbeitet werden, erfolgt die
+            Verarbeitung zusätzlich auf Grundlage Ihrer ausdrücklichen
+            Einwilligung gemäß Art. 9 Abs. 2 lit. a DSGVO.
+        </p>
+
+        <p>
+            Sie können diese Einwilligung jederzeit mit Wirkung für die Zukunft
+            widerrufen, indem Sie GlucoFly Live beenden. Die Rechtmäßigkeit der
+            bis zum Widerruf erfolgten Verarbeitung bleibt hiervon unberührt.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>5. Server-Infrastruktur und Supabase</h2>
+
+        <p>
+            Für die technische Bereitstellung von GlucoFly Live verwenden wir
+            Dienste von Supabase. Supabase stellt insbesondere Datenbank- und
+            Serverfunktionen bereit und verarbeitet Daten dabei in unserem Auftrag.
+        </p>
+
+        <p>
+            Anbieter:
+            <strong>Supabase, Inc. bzw. die jeweils zuständige Supabase-Gesellschaft</strong>.
+        </p>
+
+        <p>
+            Das für GlucoFly verwendete Supabase-Projekt wird in
+            <strong>[SUPABASE-REGION VOR VERÖFFENTLICHUNG EINTRAGEN]</strong>
+            betrieben.
+        </p>
+
+        <p>
+            Soweit bei der Bereitstellung der Dienste eine Verarbeitung in
+            Drittländern erforderlich ist, erfolgt diese auf Grundlage der
+            einschlägigen datenschutzrechtlichen Garantien und der vertraglichen
+            Regelungen mit dem Dienstleister.
+        </p>
+
+        <p>
+            Weitere Informationen:
+            <a href="https://supabase.com/privacy"
+               target="_blank" rel="noopener noreferrer">
+                Datenschutz bei Supabase
+            </a>.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>6. Apple Push Notifications und Live Activities</h2>
+
+        <p>
+            Für GlucoFly Live werden Live-Activity-Aktualisierungen über den
+            Apple Push Notification Service (APNs) an Ihr Apple-Gerät übertragen.
+        </p>
+
+        <p>
+            Dafür werden technische Push-Tokens sowie die für die jeweilige
+            Live-Activity-Darstellung notwendigen Inhalte an Apple übermittelt.
+            Diese Inhalte können insbesondere aktuelle Glukosewerte,
+            Trendinformationen, Messzeitpunkte und die für die Anzeige
+            notwendigen Verlaufspunkte enthalten.
+        </p>
+
+        <p>
+            Die Verarbeitung durch Apple erfolgt zusätzlich nach den
+            Datenschutzbestimmungen von Apple:
+            <a href="https://www.apple.com/legal/privacy/"
+               target="_blank" rel="noopener noreferrer">
+                Apple Datenschutz
+            </a>.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>7. Apple Watch, Widgets und andere Apple-Geräte</h2>
+
+        <p>
+            GlucoFly kann Glukosedaten und ausgewählte Einstellungen innerhalb
+            des Apple-Ökosystems bereitstellen, beispielsweise für Widgets,
+            Komplikationen oder die Apple Watch.
+        </p>
+
+        <p>
+            Für die Kommunikation mit einer gekoppelten Apple Watch verwendet
+            GlucoFly von Apple bereitgestellte Systemfunktionen wie
+            WatchConnectivity. Dabei können insbesondere der aktuelle
+            Glukosewert, Trendinformationen, Messzeitpunkte und
+            Anzeigeeinstellungen an die gekoppelte Watch übertragen und dort
+            lokal gespeichert werden.
+        </p>
+
+        <p>
+            Diese geräteinterne Übertragung erfolgt nicht über einen eigenen
+            GlucoFly-Server, sofern hierfür nicht zusätzlich GlucoFly Live
+            verwendet wird.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>8. Käufe und Abonnements</h2>
+
+        <p>
+            Käufe und Abonnements innerhalb der App werden über Apple und den
+            App Store abgewickelt. GlucoFly erhält keine Kreditkarten- oder
+            sonstigen vollständigen Zahlungsdaten.
+        </p>
+
+        <p>
+            Für die Freischaltung von GlucoFly Live verarbeitet die App den von
+            Apple bereitgestellten Berechtigungsstatus sowie gegebenenfalls das
+            Ablaufdatum der Berechtigung. Diese Information kann an den
+            GlucoFly-Live-Server übermittelt werden, damit geprüft werden kann,
+            ob die Funktion verwendet werden darf.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>9. Kontakt und Support</h2>
+
+        <p>
+            Wenn Sie uns per E-Mail kontaktieren, verarbeiten wir die von Ihnen
+            übermittelten Angaben, um Ihre Anfrage zu bearbeiten.
+        </p>
+
+        <p>
+            GlucoFly bietet außerdem die Möglichkeit, freiwillig eine
+            Support-E-Mail mit technischen Diagnosedaten zu erstellen.
+            Diese kann unter anderem folgende Angaben enthalten:
+        </p>
+
+        <ul>
+            <li>App-Version und Build-Nummer</li>
+            <li>iOS-Version und Gerätemodell</li>
+            <li>Region, Sprache und Zeitzone</li>
+            <li>ausgewählte Dexcom-Serverregion</li>
+            <li>Status von GlucoFly Live</li>
+            <li>Status eines Abonnements oder Testzeitraums</li>
+            <li>Zeitpunkte bestimmter letzter Live-Activity-Aktualisierungen</li>
+        </ul>
+
+        <p>
+            Der automatisch erzeugte Diagnosebericht enthält keine
+            Dexcom-Passwörter und keinen vollständigen lokalen
+            Glukoseverlauf.
+        </p>
+
+        <p>
+            Der Versand einer solchen E-Mail erfolgt erst durch Ihre ausdrückliche
+            Aktion über den auf Ihrem Gerät eingerichteten E-Mail-Dienst.
+        </p>
+
+        <p>
+            Rechtsgrundlage ist je nach Art der Anfrage Art. 6 Abs. 1 lit. b
+            DSGVO oder unser berechtigtes Interesse an der Bearbeitung von
+            Support- und Kontaktanfragen gemäß Art. 6 Abs. 1 lit. f DSGVO.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>10. Biometrische Authentifizierung</h2>
+
+        <p>
+            GlucoFly kann die von Apple bereitgestellte Geräteauthentifizierung,
+            beispielsweise Face ID, Touch ID oder den Gerätecode, verwenden, um
+            sensible Informationen innerhalb der App zu schützen.
+        </p>
+
+        <p>
+            GlucoFly erhält dabei keine biometrischen Merkmale, Gesichts- oder
+            Fingerabdruckdaten. Die eigentliche Prüfung findet durch das
+            Betriebssystem auf Ihrem Gerät statt. Die App erhält lediglich das
+            Ergebnis, ob die Authentifizierung erfolgreich war.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>11. Speicherdauer und Löschung</h2>
+
+        <h3>Auf dem Gerät</h3>
+
+        <p>
+            Glukosedaten im lokalen Verlauf werden fortlaufend aktualisiert und
+            grundsätzlich nur für den für die App-Funktionen benötigten Zeitraum
+            vorgehalten. Der derzeit technisch vorgesehene Verlauf beträgt
+            maximal ungefähr sieben Tage.
+        </p>
+
+        <p>
+            Dexcom-Zugangsdaten bleiben geschützt im Apple Keychain gespeichert,
+            bis sie über die entsprechende Funktion in GlucoFly gelöscht werden
+            oder anderweitig aus dem Keychain entfernt werden. Das Verhalten des
+            Keychain bei einer Deinstallation wird durch iOS bestimmt; eine
+            Deinstallation allein muss daher nicht in jedem Fall einer
+            ausdrücklichen Löschung innerhalb der App entsprechen.
+        </p>
+
+        <h3>GlucoFly Live</h3>
+
+        <p>
+            Serverseitig gespeicherte Daten werden nur so lange verarbeitet, wie
+            dies zur Bereitstellung von GlucoFly Live erforderlich ist.
+        </p>
+
+        <p>
+            Wenn GlucoFly Live vollständig beendet und die Registrierung des
+            Geräts aufgehoben wird, werden die zugehörigen serverseitigen
+            Installationsdaten einschließlich der gespeicherten
+            Dexcom-Zugangsdaten und Push-Tokens gelöscht.
+        </p>
+
+        <p>
+            Auch bei Ablauf einer erforderlichen Berechtigung oder bei bestimmten
+            dauerhaft ungültigen technischen Registrierungen werden nicht mehr
+            benötigte Serverdaten automatisiert entfernt.
+        </p>
+
+        <h3>Support-Anfragen</h3>
+
+        <p>
+            Daten aus Support- und Kontaktanfragen werden gelöscht, sobald sie für
+            die Bearbeitung der Anfrage nicht mehr erforderlich sind, sofern keine
+            gesetzlichen Aufbewahrungspflichten entgegenstehen.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>12. Keine Werbung, kein Tracking und keine Nutzerprofile</h2>
+
+        <p>
+            GlucoFly verwendet derzeit keine Werbenetzwerke und keine eigenen
+            Analyse- oder Tracking-Dienste. Glukosedaten werden nicht für
+            personalisierte Werbung, Marketingprofile oder den Verkauf von Daten
+            verwendet.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>13. Datenschutz auf dieser Website</h2>
+
+        <p>
+            Diese Datenschutzerklärung wird über GitHub Pages bereitgestellt.
+            Betreiber des Dienstes ist GitHub.
+        </p>
+
+        <p>
+            Beim Aufruf einer GitHub-Pages-Website können technisch notwendige
+            Verbindungsdaten, insbesondere die IP-Adresse, durch GitHub
+            verarbeitet und zu Sicherheitszwecken protokolliert werden.
+        </p>
+
+        <p>
+            Diese Seite selbst setzt keine eigenen Analyse-, Werbe- oder
+            Tracking-Dienste ein und bindet keine externen Schriftarten ein.
+        </p>
+
+        <p>
+            Weitere Informationen:
+            <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement"
+               target="_blank" rel="noopener noreferrer">
+                Datenschutzerklärung von GitHub
+            </a>.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>14. Ihre Datenschutzrechte</h2>
+
+        <p>
+            Soweit die gesetzlichen Voraussetzungen vorliegen, haben Sie
+            insbesondere das Recht auf Auskunft über Ihre personenbezogenen
+            Daten, Berichtigung unrichtiger Daten, Löschung, Einschränkung der
+            Verarbeitung und Datenübertragbarkeit.
+        </p>
+
+        <p>
+            Soweit eine Verarbeitung auf einer Einwilligung beruht, können Sie
+            diese Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen.
+        </p>
+
+        <p>
+            Außerdem haben Sie das Recht, sich bei einer zuständigen
+            Datenschutzaufsichtsbehörde zu beschweren.
+        </p>
+
+        <p>
+            Für Datenschutzanfragen erreichen Sie uns unter:
+            <a href="mailto:info@glucofly.de">info@glucofly.de</a>
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>15. Änderungen dieser Datenschutzerklärung</h2>
+
+        <p>
+            Diese Datenschutzerklärung kann angepasst werden, wenn sich die
+            Funktionsweise von GlucoFly, die eingesetzten Dienste oder die
+            rechtlichen Anforderungen ändern.
+        </p>
+
+        <p>
+            Die jeweils aktuelle Fassung wird unter dieser Adresse
+            bereitgestellt.
+        </p>
+
+        <p class="muted">
+            Stand: 28. September 2026
+        </p>
+    </section>
+
+    <footer>
+        © 2026 GlucoFly · Datenschutz
+    </footer>
+
+</div>
+</body>
+</html>
